@@ -1,6 +1,6 @@
 ﻿namespace Donguler
 {
-     class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -9,7 +9,7 @@
             string kurs3 = "java kursları";
 
             Console.WriteLine(kurs1);
-            Console.WriteLine(kurs2);   
+            Console.WriteLine(kurs2);
             Console.WriteLine(kurs3);
 
             string[] kurslar = new string[] {"yazılım geliştirci","programlamaya giris",

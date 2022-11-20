@@ -1,13 +1,13 @@
 ﻿namespace ClassIntro
 {
-      public class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             string adi = "Elif";
             int yas = 27;
 
-        //  kurs Classnın değişkenleri ve değer ataması 
+            //  kurs Classnın değişkenleri ve değer ataması 
             Kurs kurs1 = new Kurs();
             kurs1.KursAdi = "c#";
             kurs1.Egitmen = "Elif";
@@ -29,13 +29,13 @@
 
             foreach (var kurs in kurslar)
             {
-                Console.WriteLine(kurs.KursAdi+ " : " + kurs.Egitmen+ " - % " + kurs.IzlemeOrani );
-           
-          }
+                Console.WriteLine(kurs.KursAdi + " : " + kurs.Egitmen + " - % " + kurs.IzlemeOrani);
 
-            Urun urun1= new Urun(); //urun classının değişkeni oluştutuldu
+            }
+
+            Urun urun1 = new Urun(); //urun classının değişkeni oluştutuldu
             urun1.ayakkabi = "nikeayakkabı ";
-            urun1.mont = "puma mont" ;
+            urun1.mont = "puma mont";
             urun1.canta = "adidas canta ";
 
             Urun urun2 = new Urun();
@@ -52,7 +52,7 @@
 
             foreach (var urun in urunler)
             {
-                Console.WriteLine(urun.ayakkabi+" : " + urun.mont+" : " +urun.canta+ "  ");
+                Console.WriteLine(urun.ayakkabi + " : " + urun.mont + " : " + urun.canta + "  ");
             }
 
         }

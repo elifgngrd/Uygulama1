@@ -7,15 +7,15 @@
             string kategoriEtiketi = "Kategori"; //kategori etiketi burda değer tututcudur
             int ogrenciSayisi = 320000;
             double faizOrani = 1.45;
-            bool sistemeGirisYapmismi= true;
+            bool sistemeGirisYapmismi = true;
             double dolardun = 7.45;
             double dolarbugun = 8.45;
 
-            if (dolardun>dolarbugun)
+            if (dolardun > dolarbugun)
             {
                 Console.WriteLine("azalış butonu göster");
             }
-            else if(dolardun<dolarbugun) 
+            else if (dolardun < dolarbugun)
             {
                 Console.WriteLine("artış butonu");
             }

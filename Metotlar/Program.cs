@@ -14,7 +14,7 @@
             urun2.Fiyati = 60;
             urun2.Aciklama = "diyarbakır karpuzu";
 
-            Urun[] urunler = new Urun[] {urun1,urun2}; //Urun adı içerisinde dizi oluşturuldu
+            Urun[] urunler = new Urun[] { urun1, urun2 }; //Urun adı içerisinde dizi oluşturuldu
 
             foreach (var urun in urunler) //var yerine Urun yazılabilir Urun veri tipitir.
             {
