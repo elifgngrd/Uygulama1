@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koleksiyonlar", "Koleksiyonlar\Koleksiyonlar.csproj", "{96D405AB-45E7-40DC-87FF-C13A3401C3FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{89640E1D-F52C-46F5-943C-B97021C6572A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{89640E1D-F52C-46F5-943C-B97021C6572A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP2", "OOP2\OOP2.csproj", "{DF691CF0-F580-4485-96C6-8EDC31C78549}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,11 +65,15 @@ Global
 		{89640E1D-F52C-46F5-943C-B97021C6572A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89640E1D-F52C-46F5-943C-B97021C6572A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89640E1D-F52C-46F5-943C-B97021C6572A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF691CF0-F580-4485-96C6-8EDC31C78549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF691CF0-F580-4485-96C6-8EDC31C78549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF691CF0-F580-4485-96C6-8EDC31C78549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF691CF0-F580-4485-96C6-8EDC31C78549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B1A7565C-2629-4D6E-8CF4-B2D49FF4F46A}
+		SolutionGuid = {E57BCDAD-668F-4D42-A157-7A1DE84A5CC2}
 	EndGlobalSection
 EndGlobal
